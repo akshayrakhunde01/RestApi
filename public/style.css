@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: 1px auto;
+  }
+  
+  .post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .post h2 {
+    color: #333;
+  }
+  
+  .post h3 {
+    color: #555;
+  }
+  
+  .post h4 {
+    color: #777;
+  }
+  
+  a {
+    color: #111111;
+    text-decoration: none;
+    margin-right: 10px;
+    border: 1px solid #1f2021;
+    border-radius: 5px;
+    padding: 8px 15px;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    background-color: #db343c;
+    /* border: 5px; */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #bc0a0a;
+  }
+  
+  .newpost {
+    display: ruby-base-container;
+    text-align: center;
+    margin-bottom: 1px;
+    padding: 10px;
+    background-color: #db343c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding-top: 10px;
+  }
+  
+  .newpost:hover {
+    background-color: #2980b9;
+  }
+  /* styles.css */
+
+button.delete-btn {
+  color: #fff;
+  background-color: #e74c3c;
+  border: 1px solid #c0392b;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.delete-btn:hover {
+  background-color: #c0392b;
+}
