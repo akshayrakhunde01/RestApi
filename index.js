@@ -35,12 +35,14 @@ let posts = [
 
 // 05 check on the browser
 app.get("/", (req, res) => {
-  res.render("index.ejs", { posts });
+  res.send(
+    `server is listening on port  ${port} for further Porcess <h3>use "/posts"</h3>`
+  );
 });
 
-// app.get("/posts", (req, res) => {
-  
-// });
+app.get("/posts", (req, res) => {
+  res.render("index.ejs", { posts });
+});
 
 //  adding new posts
 app.get("/posts/new", (req, res) => {
